@@ -1,0 +1,22 @@
+Package: m6APrediction
+Title: Predict RNA N6-Methyladenosine Sites Using Random Forests
+Version: 1.0.0
+Authors@R: person(
+    given = "Zixiao",
+    family = "Feng",
+    email = "Zixiao.Feng24@student.xjtlu.edu.cn",
+    role = c("aut", "cre"))
+Description: Predicts RNA N6-methyladenosine site probabilities and
+    classification statuses using a pretrained random forest model.
+    Supports batch prediction from feature tables and prediction for
+    individual sites using sequence context, transcript annotations,
+    structural features, and evolutionary conservation. Includes a
+    fitted model and example input data for demonstrating package use.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 3.5.0)
+Imports:
+    randomForest,
+    stats
+RoxygenNote: 7.3.3
